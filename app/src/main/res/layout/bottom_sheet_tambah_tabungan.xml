@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="24dp"
+    android:background="@drawable/bg_hero_card"
+    android:backgroundTint="@color/surface">
+
+    <!-- Handle Bar -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_hero_card"
+        android:backgroundTint="@color/card_border" />
+
+    <!-- Judul Bottom Sheet -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sheet_tambah_tabungan"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/subtitle_sheet_tambah_tabungan"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <!-- 1. Dropdown Jenis Tabungan -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilJenisTabunganTambah"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/label_pilih_jenis_tabungan"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
+
+        <AutoCompleteTextView
+            android:id="@+id/actvJenisTabunganTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 2. Input Nominal Setoran -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNominalTambah"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Nominal Tabungan (Rp)"
+        app:prefixText="Rp "
+        app:prefixTextColor="@color/text_primary"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNominalTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 3. Catatan Opsional -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCatatanTambah"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/label_catatan"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCatatanTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Tombol Simpan Tabungan -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnKonfirmasiTambah"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_konfirmasi_tambah_tabungan"
+        android:textColor="@color/on_primary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/savings_dark"
+        app:cornerRadius="14dp"
+        app:icon="@drawable/ic_add"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="@color/on_primary" />
+
+</LinearLayout>

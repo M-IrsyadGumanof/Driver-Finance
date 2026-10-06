@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Driver Finance</string>
+    <string name="tagline">ShopeeFood Driver Daily Assistant</string>
+    <string name="header_greeting">Selamat datang 👋</string>
+    <string name="header_subgreeting">Kelola keuanganmu hari ini.</string>
+
+    <!-- Cards -->
+    <string name="title_saldo_tersedia">Saldo Tersedia</string>
+    <string name="desc_saldo_tersedia">Saldo bersih likuid siap pakai</string>
+    <string name="title_pemasukan_hari_ini">Pemasukan Hari Ini</string>
+    <string name="title_pengeluaran_hari_ini">Pengeluaran Hari Ini</string>
+    <string name="title_total_tabungan">Total Tabungan</string>
+
+    <!-- Buttons -->
+    <string name="btn_catat_pemasukan">+ Catat Pemasukan</string>
+
+    <!-- Sections -->
+    <string name="section_pembagian_uang">Pembagian Uang</string>
+    <string name="desc_pembagian_uang">Alokasi otomatis dari pemasukan hari ini</string>
+    <string name="alloc_tabungan_title">Tabungan (15%)</string>
+    <string name="alloc_motor_title">Motor (10%)</string>
+    <string name="alloc_bensin_title">Bensin (25%)</string>
+    <string name="alloc_jajan_title">Kebutuhan Hidup Sehari-hari (40%)</string>
+    <string name="alloc_bebas_title">Dana Bebas (10%)</string>
+
+    <string name="section_pemasukan_minggu_ini">Pemasukan Minggu Ini</string>
+    <string name="empty_pemasukan_minggu_ini">Tidak ada data pemasukan minggu ini.</string>
+    <string name="label_total_minggu_ini">Total Minggu Ini</string>
+    <string name="label_rata_rata_per_hari">Rata-rata / Hari</string>
+    <string name="label_tertinggi_minggu_ini">Pemasukan Tertinggi</string>
+
+    <string name="section_transaksi_terbaru">Transaksi Terbaru</string>
+    <string name="empty_transaksi_terbaru">Belum ada transaksi tercatat.</string>
+
+    <!-- Form Catat Pemasukan -->
+    <string name="title_catat_pemasukan">Catat Pemasukan</string>
+    <string name="subtitle_catat_pemasukan">Masukkan hasil trip hari ini untuk dialokasikan otomatis</string>
+    <string name="label_tanggal">Tanggal</string>
+    <string name="label_sumber">Sumber Pemasukan</string>
+    <string name="label_nominal">Pemasukan ShopeeFood (Rp)</string>
+    <string name="hint_nominal">Contoh: 200000</string>
+    <string name="label_bensin">Bensin Hari Ini (Rp)</string>
+    <string name="hint_bensin">Contoh: 30000 (boleh 0)</string>
+    <string name="label_jumlah_order">Jumlah Order / Trip</string>
+    <string name="hint_jumlah_order">Contoh: 12</string>
+    <string name="label_jam_mulai">Jam Mulai</string>
+    <string name="label_jam_selesai">Jam Selesai</string>
+    <string name="label_catatan">Catatan (Opsional)</string>
+    <string name="hint_catatan">Contoh: Hujan lebat siang hari, ramai orderan</string>
+    <string name="btn_simpan_pemasukan">Simpan Pemasukan</string>
+    <string name="msg_pemasukan_sukses">Pemasukan berhasil disimpan</string>
+    <string name="err_nominal_kosong">Nominal pemasukan tidak boleh kosong</string>
+    <string name="err_nominal_invalid">Nominal pemasukan harus lebih dari atau sama dengan 0</string>
+    <string name="err_bensin_lebih_besar">Bensin tidak boleh lebih besar dari pemasukan.</string>
+    <string name="err_bensin_invalid">Nominal bensin harus lebih besar atau sama dengan 0</string>
+
+    <!-- Form Catat Pengeluaran -->
+    <string name="btn_catat_pengeluaran">+ Catat Pengeluaran</string>
+    <string name="title_catat_pengeluaran">Catat Pengeluaran</string>
+    <string name="subtitle_catat_pengeluaran">Catat uang yang benar-benar sudah dibelanjakan</string>
+    <string name="label_kategori">Kategori Pengeluaran</string>
+    <string name="label_nominal_pengeluaran">Nominal Pengeluaran (Rp)</string>
+    <string name="hint_nominal_pengeluaran">Contoh: 30000</string>
+    <string name="hint_catatan_pengeluaran">Contoh: Isi bensin sebelum narik</string>
+    <string name="btn_simpan_pengeluaran">Simpan Pengeluaran</string>
+    <string name="msg_pengeluaran_sukses">Pengeluaran berhasil disimpan</string>
+
+    <!-- Formats -->
+    <string name="currency_format">Rp%1$s</string>
+    <string name="order_count_format">%1$d Order</string>
+    <string name="transaction_count_format">%1$d transaksi</string>
+    <string name="label_pemasukan">Pemasukan</string>
+    <string name="default_sumber_pemasukan">ShopeeFood</string>
+
+    <string name="err_nominal_pengeluaran_kosong">Nominal pengeluaran tidak boleh kosong</string>
+    <string name="err_nominal_pengeluaran_invalid">Nominal harus lebih dari 0</string>
+    <string name="err_kategori_kosong">Pilih kategori pengeluaran terlebih dahulu</string>
+    <!-- Halaman Tabungan & Dana -->
+    <string name="title_tabungan">Tabungan Driver</string>
+    <string name="subtitle_tabungan">Pantau target dan kelola dana cadangan</string>
+    <string name="label_target_tabungan">Target Tabungan</string>
+    <string name="target_nominal_default">Rp5.000.000</string>
+    <string name="btn_tambah_tabungan">+ Tambah Tabungan</string>
+    <string name="btn_ambil_dana">Ambil Dana</string>
+    <string name="kategori_tabungan_utama">Tabungan Utama</string>
+    <string name="kategori_dana_motor">Dana Motor</string>
+    <string name="kategori_dana_darurat">Dana Darurat</string>
+    <string name="desc_tabungan_utama">Disimpan untuk masa depan &amp; aset</string>
+    <string name="desc_dana_motor">Servis rutin, ban, &amp; ganti oli motor</string>
+    <string name="desc_dana_darurat">Kebutuhan mendesak &amp; tak terduga</string>
+    <string name="section_kategori_tabungan">Pos Tabungan</string>
+    <string name="section_riwayat_tabungan">Riwayat Transaksi Tabungan</string>
+    <string name="empty_riwayat_tabungan">Belum ada mutasi tabungan tercatat.</string>
+
+    <!-- Bottom Sheet Ambil Dana -->
+    <string name="title_sheet_ambil_dana">Ambil Dana Tabungan</string>
+    <string name="subtitle_sheet_ambil_dana">Penarikan dana untuk kebutuhan penting</string>
+    <string name="label_pilih_jenis_tabungan">Pilih Pos Tabungan</string>
+    <string name="label_alasan_ambil_dana">Alasan Penarikan</string>
+    <string name="label_saldo_tersedia_format">Saldo tersedia: %1$s</string>
+    <string name="hint_catatan_alasan">Catatan tambahan (opsional)</string>
+    <string name="btn_konfirmasi_ambil_dana">Konfirmasi Ambil Dana</string>
+    <string name="err_jenis_tabungan_kosong">Pilih jenis tabungan terlebih dahulu</string>
+    <string name="err_alasan_kosong">Pilih alasan penarikan terlebih dahulu</string>
+    <string name="err_saldo_kurang">Nominal melebihi saldo tabungan (%1$s)</string>
+    <string name="msg_ambil_dana_sukses">Penarikan dana berhasil dicatat</string>
+
+    <!-- Bottom Sheet Tambah Tabungan -->
+    <string name="title_sheet_tambah_tabungan">Tambah Saldo Tabungan</string>
+    <string name="subtitle_sheet_tambah_tabungan">Setor simpanan manual ke pos tabungan</string>
+    <string name="btn_konfirmasi_tambah_tabungan">Simpan Tabungan</string>
+    <string name="msg_tambah_tabungan_sukses">Tabungan berhasil ditambahkan</string>
+
+    <!-- Halaman Transaksi -->
+    <string name="title_halaman_transaksi">Daftar Transaksi</string>
+    <string name="subtitle_halaman_transaksi">Riwayat pemasukan &amp; pengeluaran driver</string>
+    <string name="chip_filter_semua">Semua</string>
+    <string name="chip_filter_pemasukan">Pemasukan</string>
+    <string name="chip_filter_pengeluaran">Pengeluaran</string>
+    <string name="label_total_pemasukan_all">Total Pemasukan</string>
+    <string name="label_total_pengeluaran_all">Total Pengeluaran</string>
+
+    <!-- Halaman Laporan -->
+    <string name="title_halaman_laporan">Laporan Keuangan</string>
+    <string name="subtitle_halaman_laporan">Analisis pendapatan &amp; pengeluaran driver</string>
+    <string name="section_grafik_pengeluaran">Distribusi Pengeluaran</string>
+    <string name="section_ringkasan_keuangan">Ringkasan Finansial</string>
+    <string name="label_sisa_bersih">Arus Kas Bersih (Net)</string>
+
+    <!-- Halaman Pengaturan -->
+    <string name="title_halaman_pengaturan">Pengaturan Keuangan</string>
+    <string name="subtitle_halaman_pengaturan">Alokasi anggaran otomatis &amp; target tabungan</string>
+    <string name="section_aturan_pembagian">Aturan Pembagian Uang Otomatis</string>
+    <string name="desc_aturan_pembagian">Setiap pemasukan disimpan, sistem otomatis membagi ke pos-pos berikut:</string>
+    <string name="section_target_finansial">Target Tabungan Driver</string>
+    <string name="section_informasi_aplikasi">Informasi Sistem</string>
+    <string name="desc_offline_room">Aplikasi berjalan 100% offline menggunakan Room Database lokal di ponsel Anda tanpa backend online.</string>
+</resources>

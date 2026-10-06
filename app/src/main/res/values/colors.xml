@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ShopeeFood Signature Palette -->
+    <color name="primary">#EE4D2D</color>
+    <color name="primary_dark">#C9381C</color>
+    <color name="primary_light">#FF7A59</color>
+    <color name="primary_container">#FFF0EC</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#8E2611</color>
+
+    <!-- Hero Card Gradient Palette -->
+    <color name="hero_gradient_start">#006C4B</color>
+    <color name="hero_gradient_end">#004A33</color>
+    <color name="hero_accent">#00C48C</color>
+
+    <!-- Financial Status Colors -->
+    <color name="income_green">#10B981</color>
+    <color name="income_dark">#059669</color>
+    <color name="income_container">#ECFDF5</color>
+    <color name="expense_red">#EF4444</color>
+    <color name="expense_dark">#DC2626</color>
+    <color name="expense_container">#FEF2F2</color>
+    <color name="savings_blue">#0EA5E9</color>
+    <color name="savings_container">#F0F9FF</color>
+    <color name="savings_dark">#0284C7</color>
+
+    <!-- Allocation Specific Colors -->
+    <color name="alloc_tabungan">#0EA5E9</color>
+    <color name="alloc_motor">#F59E0B</color>
+    <color name="alloc_keluarga">#EC4899</color>
+    <color name="alloc_kehidupan">#8B5CF6</color>
+    <color name="alloc_jajan">#8B5CF6</color>
+    <color name="alloc_bensin">#EF4444</color>
+    <color name="alloc_bebas">#10B981</color>
+
+    <!-- Neutral & Backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="card_border">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <!-- Pos Tabungan Palette -->
+    <color name="tabungan_utama">#0284C7</color>
+    <color name="tabungan_utama_light">#E0F2FE</color>
+    <color name="dana_motor">#D97706</color>
+    <color name="dana_motor_light">#FEF3C7</color>
+    <color name="dana_darurat">#DC2626</color>
+    <color name="dana_darurat_light">#FEE2E2</color>
+    <color name="dana_ambil_btn">#B91C1C</color>
+</resources>
